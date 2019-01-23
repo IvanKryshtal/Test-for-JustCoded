@@ -1,0 +1,17 @@
+.front{
+  background: url('../images/bg_front.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  .h1{
+    color: #fff;
+    margin: 86px 0px 153px;
+    @media screen and (max-width: 768px){
+    	margin: 65px 0px 120px;
+    	font-size: 34px;
+    }
+    @media screen and (max-width: 576px){
+    	font-size: 30px;
+    }
+  }
+}

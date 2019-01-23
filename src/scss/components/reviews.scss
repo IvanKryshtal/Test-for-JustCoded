@@ -1,0 +1,107 @@
+.reviews{
+  background: #f7f7f7;
+  overflow: hidden;
+  .h3{
+    margin-top: 116px;
+    letter-spacing: -1px;
+    @media screen and (max-width: 992px){
+      margin-top: 80px;
+    }
+    @media screen and (max-width: 768px){
+      margin-top: 60px;
+    }
+    @media screen and (max-width: 576px){
+      font-size: 22px;
+    }
+    &:before{
+      background: #24282f;
+    }
+  }
+  .slider{
+    position: relative;
+    .photo{
+      margin: 77px auto 30px;
+      @media screen and (max-width: 992px){
+        margin-bottom: 40px;
+      }
+      @media screen and (max-width: 768px){
+        margin-top: 60px;
+      }
+    }
+    .text{
+      font-family:  'Open Sans', sans-serif;
+      font-weight: 300;
+      width: 870px;
+      margin: 0px auto 38px;
+      text-align: center;
+      line-height: 24px;
+      letter-spacing: 0.7px;
+      @media screen and (max-width: 992px){
+        width: 520px;
+      }
+      @media screen and (max-width: 768px){
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 0.3px;
+      }
+      @media screen and (max-width: 576px){
+        width: 80%;
+      }
+    }
+    span{
+      display: block;
+      text-align: center;
+      font-weight: 400;
+      color: #000;
+      margin-bottom: 115px;
+      @media screen and (max-width: 992px){
+        margin-bottom: 80px;
+      }
+      @media screen and (max-width: 768px){
+        margin-bottom: 60px;
+      }
+    }
+    .name{
+      font-weight: 600;
+      font-size: 16px;
+      color: #b5a263;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    .slick-arrow{
+      position: absolute;
+      top: 29%;
+      color: #24282f;
+      font-size: 28px;
+      width: 10px;
+      height: 16px;
+      border: none;
+      background: rgba(0,0,0,0);
+      z-index: 999;
+      @media screen and (max-width: 768px){
+        top: 22%;
+      }
+    }
+    .slick-arrow:focus{
+      outline: none;
+    }
+    .slick-prev{
+      left: 110px;
+      @media screen and (max-width: 768px){
+        left: 40px;
+      }
+      @media screen and (max-width: 576px){
+        left: 20px;
+      }
+    }
+    .slick-next{
+      right: 120px;
+      @media screen and (max-width: 768px){
+        right: 50px;
+      }
+      @media screen and (max-width: 576px){
+        right: 30px;
+      }
+    }
+  }
+}

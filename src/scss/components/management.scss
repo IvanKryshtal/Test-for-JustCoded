@@ -1,0 +1,155 @@
+.h3{
+  &::before{
+    content:'';
+    display: block;
+    width: 78px;
+    height: 3px;
+    margin: 0px auto -3px;
+    bottom: -51px;
+    position: relative;
+  }
+}
+.management{
+  .h3{
+    margin-top: 151px;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+    @media screen and (max-width: 768px){
+      margin-top: 70px;
+    }
+    @media screen and (max-width: 576px){
+      margin-top: 50px;
+    }
+    &::before{
+      background: #b5a263;
+    }
+  }
+  .list{
+    max-width: 1124px;
+    margin: 60px auto 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media screen and (max-width: 768px){
+      flex-direction: column;
+      align-items: center;
+    }
+    .item{
+      @media screen and (max-width: 768px){
+        margin-bottom: 30px;
+      }
+    }
+    .photo{
+      width: 311px;
+      height: 300px;
+      margin-bottom: 26px;
+      -webkit-background-size: 100%;
+      background-size: 100%;
+      @media screen and (max-width: 992px){
+        width: 240px;
+        height: 230px;
+      }
+      @media screen and (max-width: 768px){
+        width: 311px;
+        height: 300px;
+      }
+      @media screen and (max-width: 576px){
+        width: 290px;
+        height: 280px;
+      }
+    }
+    .photo-first{
+      background: url(../images/management_photo1.jpg) no-repeat;
+      background-size: cover;
+    }
+    .photo-second{
+      background: url(../images/management_photo2.jpg) no-repeat;
+      background-size: cover;
+    }
+    .photo-third{
+      background: url(../images/management_photo3.jpg) no-repeat;
+      background-size: cover;
+    }
+    .info{
+      display: flex;
+      flex-direction: row;
+      align-item: center;
+      justify-content: space-between;
+      padding: 0px 12px;
+      @media screen and (max-width: 992px){
+        padding: 0px;
+      }
+      span{
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        color: #b5a263;
+        @media screen and (max-width: 992px){
+          font-size: 12px;
+        }
+        @media screen and (max-width: 768px){
+          font-size: 14px;
+        }
+        &:first-child{
+          font-family: 'Raleway', sans-serif;
+          font-weight: 600;
+          color: #000;
+          font-size: 16px;
+          margin-bottom: 2px;
+          text-transform: uppercase;
+          @media screen and (max-width: 992px){
+            font-size: 14px;
+          }
+          @media screen and (max-width: 768px){
+            font-size: 16px;
+          }
+        }
+      }
+      .social-icon{
+        display: inline-block;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 34px;
+        background: #dedede;
+        color: #fff;
+        @media screen and (max-width: 992px){
+          width: 26px;
+          height: 26px;
+          line-height: 26px;
+          font-size: 12px;
+        }
+        @media screen and (max-width: 768px){
+          width: 34px;
+          height: 34px;
+          line-height: 34px;
+          font-size: 16px;
+        }
+        &:hover{
+          background: #b5a263;
+        }
+      }
+    }
+  }
+  .btn_holder{
+    display: block;
+    width: 164px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #24282f;
+    border-radius: 25px;
+    margin: 44px auto 31px;
+    @media screen and (max-width: 768px){
+      margin-top: 20px;
+    }
+    &:hover{
+      background: #B5A263;
+      color: #fff;
+      border: none;
+    }
+  }
+}
